@@ -4,6 +4,8 @@
   ## Description
   UofM Challenge #11 - Note Taker - Given the front end code for a note taking app, write the back-end with Express
 
+  Uses Express, fs, and uuid.
+
  ![Screenshot of app](note-taker.png)
 
   ## Table of Contents

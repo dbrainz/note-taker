@@ -14,10 +14,11 @@ app.use('/api', api);
 
 app.use(express.static('public'));
 
+// send index.html if no path
 app.get('/', (req, res) => 
     res.sendFile(path.join(__dirname, '/public/index.html'))
 );
-
+// send notes.html if path is '/notes'
 app.get('/notes', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
